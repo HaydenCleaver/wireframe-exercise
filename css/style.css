@@ -1,26 +1,81 @@
 header{
     border: solid black 3px;
     height: 80px;
-    background-color: rgb(71, 70, 70);
+    background-color: rgb(54, 54, 54);
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-#logo{
-    display: inline-block;
-    margin-right: 70px;
+header > img{
+    margin-right: 100px;
 }
 
 a{
     border: thin black 3px;
-    margin: 90px 90px 90px 90px;
+    margin: 60px 55px 50px 40px;
     display: inline-block;
 }
 
-#hero{
+div:first-child{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
+    margin: 30px;
+}
+
+section{
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+
+}
+
+section > img{
+    margin: 15px;
+}
+
+.half{
+    display: flex;
+    flex-direction: row;
+    /* width: calc(50%-4px); */
+    /* align-items: center; */
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+
+}
+
+#banner{
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 30px;
+
+}
+
+p{
+    margin-left: 30px;
+    margin-right: 50%;
+    display: inline-block;
+    height: 400px;
+    width: 75%;
+    overflow-y: scroll;
+}
+
+button{
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 200px;
+}
+button:hover{
+    background-color: aqua;
+}
+
+footer{
+    border: solid black 3px;
+    height: 80px;
+    background-color: rgb(54, 54, 54); 
 }
